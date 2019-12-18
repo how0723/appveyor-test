@@ -15,3 +15,8 @@ TEST_CASE("test3", "[test1]")
 {
     REQUIRE(1 < 2);
 }
+
+TEST_CASE("test4", "[test1]")
+{
+    REQUIRE(9==9);
+}
